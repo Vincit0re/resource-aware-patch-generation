@@ -28,3 +28,25 @@ F.v             |  G.v
 Team C            |  Team D
 :-------------------------:|:-------------------------:
 ![F.v](images/TeamC.png)  |  ![G.v](images/TeamD.png)
+
+# How to run
+## Use these steps to run the code 
+>python ./eco_flow.py <F.v> <G.v> <weight.txt> <patch.v> <out.v>
+
+## Example
+> cd ./solution/helper
+> mkdir results
+> python ./eco_flow.py testcases/unit1/F.v testcases/unit1/G.v testcases/unit1/weight.txt results/patch.v results/out.v
+
+# Requirements
+
+> Code requires ABC binary for functional verification
+
+> Linux: You need to compile ABC (see instruction below)
+
+> Windows: ABC binary already included
+
+# Refrences
+>1. [Resource Aware Patch Generation](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiIteyYzub4AhXLGLcAHb4vAR0QFnoECAMQAQ&url=https%3A%2F%2Fgithub.com%2Fflotisable%2FResourceAwarePatchGeneration&usg=AOvVaw05lTobRtSAxOdYSoQi3Nug)
+>2. [Contest Link](http://iccad-contest.org/2017/CAD-contest-at-ICCAD2017/index.html)
+>3. [Problem](http://iccad-contest.org/2017/Problem%20A_Ching-Yi.pdf)
