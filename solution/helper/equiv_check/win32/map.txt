@@ -1,0 +1,4 @@
+read_library lib.genlib
+read C:\Users\vaibh\Documents\GitHub\Functional_ECO\results/patch.v
+map
+write C:\Users\vaibh\Documents\GitHub\Functional_ECO\temp\final_patch_synth.v
