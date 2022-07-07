@@ -34,9 +34,11 @@ Team C            |  Team D
 >python ./eco_flow.py <F.v> <G.v> <weight.txt> <patch.v> <out.v>
 
 ## Example
-> cd ./solution/helper
-> mkdir results
-> python ./eco_flow.py testcases/unit1/F.v testcases/unit1/G.v testcases/unit1/weight.txt results/patch.v results/out.v
+>1. cd ./solution/helper
+
+>2. mkdir results
+
+>3. python ./eco_flow.py testcases/unit1/F.v testcases/unit1/G.v testcases/unit1/weight.txt results/patch.v results/out.v
 
 # Requirements
 
